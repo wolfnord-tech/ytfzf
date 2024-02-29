@@ -98,5 +98,5 @@ handle_custom_action_set_thumbnails () {
 }
 
 print_help_buttons () {
-    printf "%s\n" "Adds buttons that toggle audio_only, detach, etc..." "use --disable-back or set enable_back_button to 0 to disable this extension"
+    printf "%s\n" "Adds buttons that toggle audio_only, detach, etc." "use --disable-back or set enable_back_button to 0 to disable this extension"
 }
