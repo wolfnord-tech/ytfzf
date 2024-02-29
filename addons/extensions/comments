@@ -11,7 +11,7 @@ set -f
 instance_count=$(echo "$instances" | wc -l)
 
 if [ "$instance_count" -gt 1 ]; then
-    printf "%s\n" "More than 1 ytfzf instance is running, please select one"
+    printf "%s\n" "More than 1 ytfzf instance is running, please select one!"
     echo "$instances" | sed 's/.*\///' | nl
     read -r num
 
