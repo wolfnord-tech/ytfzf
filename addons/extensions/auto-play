@@ -45,6 +45,6 @@ print_help_auto_play () {
     printf "%s\n" "After a video ends, auto play the next video recommended by youtube
 Options:
     --auto-play-opts: options to give to ytfzf when this extention uses it to find recommnded videos and auto play the next. default: -a
-	hint: use this option with no value to disable auto play, and instead just show a list of recommended videos
+	hint: use this option with no value to disable auto-play, and instead just show a list of recommended videos
     --auto-play-help: a worse version of this help menu"
 }
