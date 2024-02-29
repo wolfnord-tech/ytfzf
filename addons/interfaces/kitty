@@ -5,7 +5,7 @@ interface_kitty () {
         const_SIXEL_UTIL_DIR="$YTFZF_CUSTOM_INTERFACES_DIR/sixel-menu"
         [ -d "$const_SIXEL_UTIL_DIR" ] && break
         false
-    done || die 3 'The sixel-menu folder is required for this interface\n'
+    done || die 3 'The sixel-menu folder is required for this interface\n\n'
 
     video_json_file=$1
     selected_id_file=$2
