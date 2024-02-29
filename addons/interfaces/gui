@@ -106,7 +106,7 @@ search_prompt_menu_gui () {
 		<variable>SEARCH</variable>
 	    </entry>
 	    <button>
-		<label>Search!</label>
+		<label>Search</label>
 	    </button>
 	</vbox>
     </window>" gtkdialog)
